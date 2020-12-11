@@ -1,0 +1,119 @@
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+body{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    color: rgb(36, 80, 97);
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Crimson Text', serif;
+  }
+hr{
+    border:dotted rgb(131,200,255);
+    border-bottom: none;
+    width: 10%;
+}
+a{
+    color: rgb(36, 80, 97);
+    text-decoration: none;
+}
+.btn{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.brain{
+    width: 25%;
+}
+.site-header{
+    width: 100%;
+    height: 100vh;
+    background: rgb(131,200,255);
+    background: linear-gradient(90deg, rgba(131,200,255,1) 0%, rgba(252,251,248,1) 61%);
+    clip-path: polygon(0% 0%,100% 0%,100% 85%,0% 85%);
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.logo{width: 50%;height: 100px;}
+
+.logo h1 {
+    line-height: 75px;
+    padding: 5px;
+    padding-top: 0px;
+    margin-left: 10%;
+}
+.menu{
+    
+    color: rgb(36, 80, 97);
+    width: 50%;
+height: 100px;
+}
+.menu ul{
+    width: 100%; height: 100px;display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(83, 174, 235);
+}
+.menu ul li a:hover{
+    color: rgb(224, 30, 30);
+    text-decoration: none;
+}
+/* section{
+    display: flex;
+} */
+.leftside{
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+}
+.brain{
+    margin-right: 5%;
+    margin-top: 0%;
+    width: 30%;
+    height: auto;
+}
+.heading{
+    font-family: 'Abril Fatface', cursive;
+}
+.rightside{
+width: 55%;
+color: rgb(36, 80, 97);
+text-align: center;
+/* margin-top: 10%; */
+margin-left: 5%;
+font-family: 'Abril Fatface', cursive;
+}
+
+.footer{
+    text-align: center;
+    background-color: #8ed3f3;
+    bottom: 0%;
+}
+.class1{
+    margin-top: -400px;
+    margin-left:150px;
+    text-align:justify;
+    color:black;
+    size:500px;
+}
+img{
+    float:right;
+}
+.wrap{
+    text-align: center;
+    background-color: aquamarine;
+}

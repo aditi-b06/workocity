@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+body{
+    background-color: rgb(172, 214, 248);
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+/* .left2{
+    background-color: rgb(235, 67, 67);
+}
+.left1{
+    background-color: rgb(53, 53, 187);
+}
+.left1,.left2{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    
+    letter-spacing: 1px;
+    font-size: 24px;
+    border-style: initial;
+
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+/* .left1:hover{
+    background-color: white;
+    color:rgb(53, 53, 187) ;
+}
+.left2:hover{
+    background-color: white;
+    color:rgb(235, 67, 67) ;
+} */
+h1{
+    color: midnightblue;
+    /* margin-top: 2rem; */
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    color: midnightblue;
+    text-transform: uppercase;
+    font-size: 250%;
+    margin-bottom: 0em;
+}
+h3{
+    margin-bottom: 0px;
+    color: midnightblue;
+}
+p{
+    margin-top: 10px;
+    font-size: 100%;
+    text-align: center;
+    color: rgb(169, 169, 173);
+}
+label{
+    color: midnightblue;
+}
+input {
+      margin:10px;
+      width: 30%;
+      height:2rem;
+      border-radius: 10px;
+    }
+    .forgot-text {
+        color: #999;
+        font-family: 'Montserrat-Light';
+        font-size: 12px;
+        line-height: 15px;
+        text-align: right;
+        float: right;
+        margin-top: -10px;
+        text-decoration: underline;
+    }
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: midnightblue;
+    background-color: rgb(196, 196, 233);
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    border-style: initial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+    color: white;
+    background: midnightblue;
+    /* box-shadow:0 0 5px midnightblue,0 0 20px midnightblue,0 0 40px midnightblue; */
+
+}
+.signup{
+    text-decoration: none;
+    color:rgb(247, 76, 76);
+}
+.signup:hover{
+    text-decoration: none;
+    color: midnightblue;
+}
+.create-account{
+    margin-top: 0%;
+} 
+.wrap{
+    background-color: rgb(208, 231, 250);
+    padding: 10px;
+    text-align: center;
+    margin-left: 4%;
+    max-width: 90%;
+}
+/* .login_separator{
+    position: relative;
+    z-index: 2;
+    color: rgb(152, 153, 156);
+    text-align: center;
+    margin: 1.5rem 0px;
+}
+.login_separator::before {
+    display: block;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    width: 48%;
+    height: 0px;
+    content: " ";
+    border-top: 1px solid rgb(223, 224, 227);
+}
+.login_separator::after {
+    right: 0px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    width: 48%;
+    height: 0px;
+    content: " ";
+    border-top: 1px solid rgb(223, 224, 227);
+} */
+.up{
+    box-sizing: inherit;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.logo{width: 50%;height: 100px;}
+
+.logo h1 {
+    line-height: 75px;
+    padding: 5px;
+    padding-top: 0px;
+    margin-left: 10%;
+}
+.menu{
+    
+    color: rgb(36, 80, 97);
+    width: 50%;
+height: 100px;
+text-decoration: none;
+}
+.menu ul{
+    width: 100%; height: 100px;display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(36,80,97);
+}
+.menu ul li a:hover{
+    color: rgb(224, 30, 30);
+    text-decoration: none;
+}
